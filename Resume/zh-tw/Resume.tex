@@ -1,0 +1,185 @@
+\documentclass[a4paper]{article}
+
+\usepackage{xeCJK} % 使用繁體中文
+\usepackage{mathtools} % 使用數學工具
+\setCJKmainfont[AutoFakeSlant=.2, AutoFakeBold = 4]{AR PL KaitiM Big5} % 標楷體 (AutoFakeSlant -> 調整斜體, AutoFakeBold -> 調整粗體度)
+%\setmainfont{Times New Roman}
+\setCJKmonofont{AR PL KaitiM Big5}
+
+\usepackage[left=2cm, right=2cm, top=0.0cm, bottom=1cm]{geometry}
+\usepackage{xcolor, fontawesome5, graphicx, titlesec, tabularx, enumitem}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref} % 支援超連結
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{myblue}{RGB}{40, 64, 119} % 自訂藍色
+\titleformat{\section}{\Large\bfseries\color{myblue}}{}{0em}{}[\titlerule]
+
+\pagestyle{empty} % 關閉頁碼
+
+
+\begin{document}
+
+% Header
+\begin{minipage}{0.25\textwidth}
+    \vspace*{-\topskip} % 去除最上方的空白
+    \begin{tikzpicture}
+        \clip (0,0.8) circle(2.5cm); % 圓形裁剪區域
+        \node[anchor=center] at (0,0) {\includegraphics[width=2.5cm]{../../img/410811306-許堯智 (自訂) (自訂)大頭.jpg}}; % 個人大頭照 (請更換)
+    \end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{0.65\textwidth}
+    \raggedright
+    \vspace{1.3cm}
+    \hspace{2cm}
+    {\fontsize{35}{48}\selectfont \bfseries \color{myblue} 許 \ 堯 \ 智}\\[1em] % 使名字更大
+    \vspace{0.1cm} % 讓名字和電話之間有一點間距
+
+    \begin{minipage}{0.6\textwidth}
+        \faGlobe\ \href{https://yao-chih.netlify.app}{https://yao-chih.netlify.app} \quad \\
+        \faLinkedin\ \href{https://www.linkedin.com/in/yao-chih}{https://www.linkedin.com/in/yao-chih} \\
+        \faGithub\ \href{https://github.com/Josh-test-lab}{https://github.com/Josh-test-lab} \quad \\
+        \faEnvelope\ \href{mailto:hyc0113@hlc.edu.tw}{hyc0113@hlc.edu.tw}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=2cm]{../../img/website QRcode.png}
+    \end{minipage}
+    
+\end{minipage}
+
+
+
+\section*{ABOUT ME}
+
+積極學習，熱愛新事物，期望豐富人生經驗。現為國立東華大學應用數學系統計碩士，研究神經網路、機器學習與時間序列。  
+
+目前研究方向為時間序列，利用神經網路處理高維度資料，透過特徵提取（反向傳播與黑箱作業）進行缺值填補，應對機器缺失或其他因素所導致的資料缺失。未來將拓展至空間資料，探索高維度填補方法。  
+
+教育是啟發智慧的關鍵。我希望將所學轉化為簡單有趣的課程，讓學生發現「科學無處不在」，激發學習動力。數學或許讓人卻步，但從基本概念出發，逐步結合理論與實務，那數學便不再只是枯燥的公式，而是一把打開世界大門的鑰匙。
+
+\section*{EXPERIENCE}
+\begin{minipage}[t]{0.25\textwidth}
+    \begin{itemize}[left=0pt]
+        \item \textbf{2025.02 - 現在}
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \textbf{花蓮縣立壽豐國民中學}
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \begin{itemize}[left=1em, itemsep=0pt, parsep=0pt]
+        \item 數學兼課教師
+    \end{itemize}
+\end{minipage} 
+\hfill
+\vspace{0.5cm}
+\begin{minipage}[t]{0.25\textwidth}
+    \begin{itemize}[left=0pt]
+        \item \textbf{2024.02 - 現在}
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \textbf{國立東華大學}
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \begin{itemize}[left=1em, itemsep=0pt, parsep=0pt]
+        \item 研究助理
+        \item 時間序列與空間研究
+        \item 缺失觀測資料填補研究
+    \end{itemize}
+\end{minipage} 
+\hfill
+\vspace{0.5cm}
+\begin{minipage}[t]{0.25\textwidth}
+    \begin{itemize}[left=0pt]
+        \item \textbf{2023.09 - 2025.01}
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \textbf{花蓮縣立壽豐國民中學}
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \begin{itemize}[left=1em, itemsep=0pt, parsep=0pt]
+        \item 學習扶助、縣課輔、假日陪讀、教學
+    \end{itemize}
+\end{minipage} 
+\hfill
+\vspace{0.5cm}
+\begin{minipage}[t]{0.25\textwidth}
+    \begin{itemize}[left=0pt]
+        \item \textbf{2023.08 - 2024.01}
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \textbf{中等學校教育實習}
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \begin{itemize}[left=1em, itemsep=0pt, parsep=0pt]
+        \item 將邏輯推斷、數理知識融入課堂
+        \item 行政校務工作
+        \item 引導、帶領學生參加小論文競賽、發明展競賽、資訊教育競賽等
+    \end{itemize}
+\end{minipage} 
+\hfill
+\vspace{0cm}
+
+\section*{EDUCATION}
+\begin{itemize}[left=0pt]
+    \item \textbf{2024 - 現在} \hfill 應用數學系 \ 統計碩士班 \ 碩士在學 \hfill 國立東華大學
+
+    \item \textbf{2021 - 2023} \hfill 教育學程 \ 修畢 \hfill 國立東華大學
+
+    \item \textbf{2019 - 2023} \hfill 應用數學系 \ 統計科學組 \ 學士畢業 \hfill 國立東華大學
+\end{itemize}
+
+\section*{PROJECT}
+\begin{itemize}[left=0pt]
+    \item \textbf{志學站停車場停車模擬模型建立專題}（碩士課程）
+    \texttt{https://github.com/Josh-test-lab/parking-lot-simulation}
+    \item \textbf{紅樓夢人物分析專題}（學士專題）
+    \texttt{https://www.overleaf.com/read/ydbnnfkrhxjd\#fc7a4a}
+    \item \textbf{使用卷積神經網路（CNN）進行影像辨識}（Python）
+    \item \textbf{個人網站} \texttt{https://yao-chih.netlify.app/}
+\end{itemize}
+
+
+\section*{\begin{minipage}{0.40\textwidth} INDIVIDUAL TRAITS \end{minipage}\hfill \begin{minipage}{0.34\textwidth} EXPERTISE \end{minipage}\hfill \begin{minipage}{0.25\textwidth} KEEP LEARNING \end{minipage}}
+\begin{minipage}{0.38\textwidth}
+\begin{itemize}[left=0pt]
+    \item 細微觀察
+    \item 邏輯推理
+    \item 富責任感
+    \item 團隊合作
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}{0.32\textwidth}
+\begin{itemize}[left=0pt]
+    \item 數學邏輯
+    \item 資料處理
+    \item 程式設計（Python \& R）
+    \item 學生教育（持有教師證書）
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}{0.25\textwidth}
+\begin{itemize}[left=0pt]
+    \item 機器學習
+    \item 時間序列
+    \item 空間模型
+    \item 缺值填補
+\end{itemize}
+\end{minipage}
+
+\end{document}

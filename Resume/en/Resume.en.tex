@@ -1,0 +1,166 @@
+\documentclass[a4paper]{article}
+
+\usepackage{xeCJK} % 使用繁體中文
+\usepackage{mathtools} % 使用數學工具
+\setCJKmainfont[AutoFakeSlant=.2, AutoFakeBold = 4]{AR PL KaitiM Big5} % 標楷體 (AutoFakeSlant -> 調整斜體, AutoFakeBold -> 調整粗體度)
+%\setmainfont{Times New Roman}
+\setCJKmonofont{AR PL KaitiM Big5}
+
+\usepackage[left=2cm, right=2cm, top=0.0cm, bottom=1cm]{geometry}
+\usepackage{xcolor, fontawesome5, graphicx, titlesec, tabularx, enumitem}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref} % 支援超連結
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{myblue}{RGB}{40, 64, 119} % 自訂藍色
+\titleformat{\section}{\Large\bfseries\color{myblue}}{}{0em}{}[\titlerule]
+
+\pagestyle{empty} % 關閉頁碼
+
+
+\begin{document}
+
+% Header
+\begin{minipage}{0.25\textwidth}
+    \vspace*{-\topskip} % 去除最上方的空白
+    \begin{tikzpicture}
+        \clip (0,0.8) circle(2.5cm); % 圓形裁剪區域
+        \node[anchor=center] at (0,0) {\includegraphics[width=2.5cm]{../../img/410811306-許堯智 (自訂) (自訂)大頭.jpg}}; % 個人大頭照 (請更換)
+    \end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{0.65\textwidth}
+    \raggedright
+    \vspace{1.3cm}
+    \hspace{2cm}
+    {\fontsize{35}{48}\selectfont \bfseries \color{myblue} Hsu, Yao-Chih}\\[1em] % 使名字更大
+    \vspace{0.1cm} % 讓名字和電話之間有一點間距
+
+    \begin{minipage}{0.6\textwidth}
+        \faGlobe\ \href{https://yao-chih.netlify.app/en}{https://yao-chih.netlify.app/en} \quad \\
+        \faLinkedin\ \href{https://www.linkedin.com/in/yao-chih}{https://www.linkedin.com/in/yao-chih} \\
+        \faGithub\ \href{https://github.com/Josh-test-lab}{https://github.com/Josh-test-lab} \quad \\
+        \faEnvelope\ \href{mailto:hyc0113@hlc.edu.tw}{hyc0113@hlc.edu.tw}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=2cm]{../../img/website QRcode.en.png}
+    \end{minipage}
+    
+\end{minipage}
+
+
+
+\section*{ABOUT ME}
+
+I am proactive, diligent, and eager to learn, currently pursuing a master's degree in Statistics at National Dong Hwa University, with research interests in neural networks, machine learning, and time series analysis.
+
+My research focuses on using neural networks for time series data to handle high-dimensional data and perform missing data imputation, particularly in cases of machine failure. I aim to expand this to spatial data and high-dimensional imputation techniques in the future.
+
+I believe education is a lifelong journey of enlightenment. I aim to make learning enjoyable by simplifying complex concepts and showing students that "science is everywhere in daily life." My goal is to make mathematics relatable by connecting theories with real-world applications, transforming it into a tool for solving problems rather than just formulas.
+
+\section*{EXPERIENCE}
+\begin{minipage}[t]{0.25\textwidth}
+    \begin{itemize}[left=0pt]
+        \item \textbf{2025.02 - Now}
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \textbf{Hualien Shou Feng Junior High School}
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \begin{itemize}[left=1em, itemsep=0pt, parsep=0pt]
+        \item Part-Time Mathematics Teacher
+    \end{itemize}
+\end{minipage} 
+\hfill
+\vspace{0.5cm}
+\begin{minipage}[t]{0.25\textwidth}
+    \begin{itemize}[left=0pt]
+        \item \textbf{2024.02 - Now}
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \textbf{National Dong Hwa University}
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \begin{itemize}[left=1em, itemsep=0pt, parsep=0pt]
+        \item Research assistant
+        \item Time series and spatial research
+        \item Operations data analysis assistant
+    \end{itemize}
+\end{minipage} 
+\hfill
+\vspace{0.5cm}
+\begin{minipage}[t]{0.25\textwidth}
+    \begin{itemize}[left=0pt]
+        \item \textbf{2023.09 - 2025.01}
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \textbf{Hualien Shou Feng Junior High School}
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \begin{itemize}[left=1em, itemsep=0pt, parsep=0pt]
+        \item Remedial instruction, tutoring, weekend tutoring and teaching
+    \end{itemize}
+\end{minipage} 
+\hfill
+\vspace{0cm}
+
+\section*{EDUCATION}
+\begin{itemize}[left=0pt]
+    \item \textbf{2024 - Now} \hfill Master of Statistics, Department of Applied Mathematics \hfill National Dong Hwa University
+
+    \item \textbf{2021 - 2023} \hfill Completed the Teacher Education Program \hfill National Dong Hwa University
+
+    \item \textbf{2019 - 2023} \hfill Bachelor of Statistics, Department of Applied Mathematics \hfill National Dong Hwa University
+\end{itemize}
+
+\section*{PROJECT}
+\begin{itemize}[left=0pt]
+    \item \textbf{Parking model for the parking lot in Zhixue station} (Master's Course) \\
+    \texttt{https://github.com/Josh-test-lab/parking-lot-simulation}
+    \item \textbf{The Analysis of Characters in Dream of the Red Chamber} (Bachelor's Research Project) \\
+    \texttt{https://www.overleaf.com/read/ydbnnfkrhxjd\#fc7a4a}
+    \item \textbf{Image Recognition Using Convolutional Neural Networks (CNN)} (Python)
+    \item \textbf{Personal Website} \texttt{https://yao-chih.netlify.app/en}
+\end{itemize}
+
+
+\section*{\begin{minipage}{0.40\textwidth} INDIVIDUAL TRAITS \end{minipage}\hfill \begin{minipage}{0.34\textwidth} EXPERTISE \end{minipage}\hfill \begin{minipage}{0.25\textwidth} KEEP LEARNING \end{minipage}}
+\begin{minipage}{0.38\textwidth}
+\begin{itemize}[left=0pt]
+    \item Attention to Detail
+    \item Logical Reasoning
+    \item Responsibility
+    \item Team Collaboration
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}{0.32\textwidth}
+\begin{itemize}[left=0pt]
+    \item Mathematical Logic
+    \item Data Processing
+    \item Programming (Python \& R)
+    \item Student Education (have teacher certificate)
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}{0.25\textwidth}
+\begin{itemize}[left=0pt]
+    \item Machine Learning
+    \item Time Series
+    \item Spatial Models
+    \item Missing Data Imputation
+\end{itemize}
+\end{minipage}
+
+\end{document}
