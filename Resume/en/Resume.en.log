@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Resume
-(./Resume.tex
+**Resume.en
+(./Resume.en.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (d:/Program Files/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -618,8 +618,8 @@ Package xeCJK Warning: Undefined CJK default family `\CJKsfdefault' has been
 (xeCJK)                Try to use `\setCJKsansfont[<...>]{<...>}' to define
 (xeCJK)                it.
 
-(./Resume.aux)
-\openout1 = `Resume.aux'.
+No file Resume.en.aux.
+\openout1 = `Resume.en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -698,7 +698,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 21.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -734,9 +733,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 21.
-(./Resume.out) (./Resume.out)
 \@outlinefile=\write4
-\openout4 = `Resume.out'.
+\openout4 = `Resume.en.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 File: ../../img/head.jpg Graphic file (type bmp)
 <../../img/head.jpg>
@@ -745,8 +746,8 @@ Overfull \hbox (21.33955pt too wide) in paragraph at lines 29--30
 [][] 
  []
 
-File: ../../img/website QRcode.png Graphic file (type bmp)
-<../../img/website QRcode.png>
+File: ../../img/website QRcode.en.png Graphic file (type bmp)
+<../../img/website QRcode.en.png>
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "AR PL KaitiM Big5/BI" (it
@@ -774,29 +775,31 @@ Package fontspec Info:
 (fontspec)             Big5/OT:script=hani;language=dflt;"
 
 
-Overfull \hbox (29.99133pt too wide) in paragraph at lines 151--153
-[]\TU/ARPLKaitiMBig5(0)/b/n/10 臺 鐵 志 學 站 停 車 場 停 車 模 擬 模 型 專 題  |\TU/ARPLKaitiMBig5(0)/m/n/10 （碩 士 課 程）| \TU/lmtt/m/n/10 https://github.com/Josh-test-lab/parking-lot-simulation 
- []
-
-
 
 [1
 
-] (./Resume.aux)
+] (./Resume.en.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
-Package rerunfilecheck Info: File `Resume.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `Resume.en.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Resume.en.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26632 strings out of 468438
- 553288 string characters out of 5442715
- 1010908 words of memory out of 5000000
- 54691 multiletter control sequences out of 15000+600000
- 629494 words of font info for 69 fonts, out of 8000000 for 9000
+ 26511 strings out of 468438
+ 545654 string characters out of 5442715
+ 996857 words of memory out of 5000000
+ 54578 multiletter control sequences out of 15000+600000
+ 629470 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,6n,93p,432b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,93p,435b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Resume.pdf (1 page).
+Output written on Resume.en.pdf (1 page).
