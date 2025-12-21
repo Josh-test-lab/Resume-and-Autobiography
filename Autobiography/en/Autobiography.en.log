@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Resume
-(./Resume.tex
+**Autobiography.en
+(./Autobiography.en.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (d:/Program Files/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -618,8 +618,8 @@ Package xeCJK Warning: Undefined CJK default family `\CJKsfdefault' has been
 (xeCJK)                Try to use `\setCJKsansfont[<...>]{<...>}' to define
 (xeCJK)                it.
 
-No file Resume.aux.
-\openout1 = `Resume.aux'.
+No file Autobiography.en.aux.
+\openout1 = `Autobiography.en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -707,14 +707,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(0.0pt, 816.5941pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 759.6886pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=816.5941pt
+* \textheight=759.6886pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-109.26999pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -734,77 +734,39 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 Package hyperref Info: Link coloring OFF on input line 21.
 \@outlinefile=\write4
-\openout4 = `Resume.out'.
+\openout4 = `Autobiography.en.out'.
 
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
-
-File: ../../img/head.jpg Graphic file (type bmp)
-<../../img/head.jpg>
-
-Overfull \hbox (21.33955pt too wide) in paragraph at lines 29--30
-[][] 
- []
-
-File: ../../img/website QRcode.png Graphic file (type bmp)
-<../../img/website QRcode.png>
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "AR PL KaitiM Big5/BI" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "AR PL KaitiM Big5/B" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "AR PL KaitiM Big5/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'ARPLKaitiMBig5(1)' created for font 'AR PL
-(fontspec)             KaitiM Big5' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"AR PL KaitiM
-(fontspec)             Big5/OT:script=hani;language=dflt;"
-
-
-Overfull \hbox (29.99133pt too wide) in paragraph at lines 151--153
-[]\TU/ARPLKaitiMBig5(0)/b/n/10 臺 鐵 志 學 站 停 車 場 停 車 模 擬 模 型 專 題  |\TU/ARPLKaitiMBig5(0)/m/n/10 （碩 士 課 程）| \TU/lmtt/m/n/10 https://github.com/Josh-test-lab/parking-lot-simulation 
- []
 
 
 
 [1
 
-] (./Resume.aux)
+]
+
+[2] (./Autobiography.en.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
 
 
-Package rerunfilecheck Warning: File `Resume.out' has changed.
+Package rerunfilecheck Warning: File `Autobiography.en.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `Resume.out':
+Package rerunfilecheck Info: Checksums for `Autobiography.en.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26624 strings out of 468438
- 553176 string characters out of 5442715
- 1009848 words of memory out of 5000000
- 54689 multiletter control sequences out of 15000+600000
- 629494 words of font info for 69 fonts, out of 8000000 for 9000
+ 26407 strings out of 468438
+ 543243 string characters out of 5442715
+ 998879 words of memory out of 5000000
+ 54495 multiletter control sequences out of 15000+600000
+ 628301 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,6n,93p,432b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,5n,92p,1330b,343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Resume.pdf (1 page).
+Output written on Autobiography.en.pdf (2 pages).

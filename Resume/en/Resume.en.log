@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.20)  21 DEC 2025 10:55
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.20)  21 DEC 2025 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -763,6 +763,8 @@ Package fontspec Info:
 (fontspec)             Could not resolve font "AR PL KaitiM Big5/I" (it
 (fontspec)             probably doesn't exist).
 
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 129.
 
 Package fontspec Info: 
 (fontspec)             Font family 'ARPLKaitiMBig5(1)' created for font 'AR PL
@@ -774,6 +776,8 @@ Package fontspec Info:
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"AR PL KaitiM
 (fontspec)             Big5/OT:script=hani;language=dflt;"
 
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 137.
 
 
 [1
@@ -794,12 +798,12 @@ Package rerunfilecheck Info: Checksums for `Resume.en.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26511 strings out of 468438
- 545654 string characters out of 5442715
+ 26519 strings out of 468438
+ 545831 string characters out of 5442715
  996857 words of memory out of 5000000
- 54578 multiletter control sequences out of 15000+600000
- 629470 words of font info for 66 fonts, out of 8000000 for 9000
+ 54582 multiletter control sequences out of 15000+600000
+ 629486 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,6n,93p,435b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,94p,435b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Resume.en.pdf (1 page).
